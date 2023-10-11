@@ -1,5 +1,5 @@
 ---
-title: "Solucion Ejercicio"
+title: "Solucion Ejercicio. Analisis exploratorio de datos"
 author: "Luis Miguel Rioja Gallo"
 date: "`r Sys.Date()`"
 output: html_document
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Ejercicio
 
-Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete robustbase.
+Considera los conjuntos de datos mammals del paquete **MASS** y **Animals2** del paquete `robustbase`.
 
 * Mira la las características de ambos conjuntos usando la ayuda.
 * Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
@@ -19,3 +19,6 @@ Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete
 * Usa la función intersect y almacena en la variable commonAnimals los aminales que * aparezcan en ambos conjuntos
 * Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 * Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
+
+
+
