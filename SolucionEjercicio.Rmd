@@ -36,14 +36,23 @@ str(x)
 y<-Animals2
 dim(y)
 head(y)
-tail(y2)
+tail(y)
 str(y)
 
 
 ```
 
-
 * Muestra los nombres de las filas y las columnas (rownames, colnames)
+
+```{r}
+rownames(x)
+colnames(x)
+rownames(y)
+colnames(y)
+```
+
+
+
 * Usa la función intersect y almacena en la variable commonAnimals los aminales que * aparezcan en ambos conjuntos
 * Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 * Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
